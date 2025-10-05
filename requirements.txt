@@ -1,0 +1,9 @@
+streamlit~=1.50.0
+pandas~=2.3.3
+folioclient~=0.70.2
+aiofiles~=24.1.0
+httpx~=0.28.1
+typer~=0.17.5
+rich~=14.1.0
+typing_extensions~=4.15.0
+folio_data_import~=0.4.1
