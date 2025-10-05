@@ -107,7 +107,7 @@ tab1, tab2 = st.tabs(["👤 User Import", "📄 Instructions & CSV Template"])
 
 # ---------- TAB 1: Import ----------
 with tab1:
-    gw_url = st.text_input("Gateway URL", "https://okapi.your-medad.example")
+    gw_url = st.text_input("Okapi URL", "https://okapi.your-medad.example")
     tenant = st.text_input("Tenant ID", "")
     user = st.text_input("Username", "")
     pw = st.text_input("Password", type="password")
