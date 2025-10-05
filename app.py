@@ -101,7 +101,7 @@ def csv_to_jsonl(df: pd.DataFrame, outfile: str):
 # Streamlit UI
 # -----------------------
 st.set_page_config(page_title="Medad User Import", layout="wide")
-st.title("📚 Medad User Import Portal")
+st.title("📚 Medad User Import")
 
 tab1, tab2 = st.tabs(["👤 User Import", "📄 Instructions & CSV Template"])
 
